@@ -22,7 +22,7 @@ function App() {
       // store the data into our books variable
       setPrizes(data.nobelPrizes);
     }
-  }, [apiUrl]); // <- you may need to put the setBooks function in this array
+  }, [apiUrl]);
 
   return (
     <div>
